@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br" dir="ltr">
+
+<head>
+  <title>codeflix</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+</head>
+
+<body>
+
+  <!-- início topo -->
+  <div class="topo conteudo-flex">
+
+    <div class="topo-esquerdo conteudo-flex">
+      <!-- início do logo -->
+      <div class="topo-logo">
+        <img src="LOGO.png" alt="Imagem logotipo" title="Imagem logotipo">
+      </div>
+      <!-- fim do logo -->
+    </div>
+
+    <!-- início topo centro -->
+    <div class="topo-centro conteudo-flex">
+
+      <!-- início menu de navegação -->
+      <nav>
+        <ul class="topo-menu conteudo-flex">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="series.html">Séries</a></li>
+          <li><a href="filmes.html">Filmes</a></li>
+          <li><a href="categorias.html">Categorias</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+      <!-- fim do menu de navegação -->
+
+        <!-- início barra de pesquisa -->
+        <div class="topo-pesquisa">
+          <div class="conteudo-pesquisa">
+            <form class="conteudo-flex" method="post">
+            <fieldset class="bar-pesquisa">
+              <input type="text" placeholder="Pesquisar um filme ou série..." alt="Digite aqui um filme ou série para pesquisar">
+            </fieldset>
+            <fieldset class="btn-pesquisar conteudo-flex">
+              <button type="button" title="Pesquisar">
+                <span class="fas fa-search"></span>
+              </button>
+            </fieldset>
+          </form>
+          </div>
+        </div>
+        <!-- fim da barra de pesquisa -->
+    </div>
+    <!-- fim topo centro -->
+  </div>
+   <!-- FILMES-->
+
+    <div class="conteudo-principal">
+      <br><br><br><br>
+      <div class="primeiro-h1">
+        <h1>FILMES</h1>
+      </div>
+      <br><br><br>
+      <div class="carousel-container">
+        <div class="carousel-track">
+          <div class="carousel-item">
+            <img src="capa1.jpg" alt="Imagem 1">
+          </div>
+          <div class="carousel-item">
+            <img src="capa2.jpg" alt="Imagem 2">
+          </div>
+          <div class="carousel-item">
+            <img src="capa3.png" alt="Imagem 3">
+          </div>
+          <div class="carousel-item">
+            <img src="capa4.jpg" alt="Imagem 2">
+          </div>
+          <div class="carousel-item">
+            <img src="capa5.jpg" alt="Imagem 3">
+          </div>
+          <div class="carousel-item">
+            <img src="capa1.jpg" alt="Imagem 1">
+          </div>
+          <div class="carousel-item">
+            <img src="capa2.jpg" alt="Imagem 2">
+          </div>
+          <div class="carousel-item">
+            <img src="capa3.png" alt="Imagem 3">
+          </div>
+          <div class="carousel-item">
+            <img src="capa4.jpg" alt="Imagem 2">
+          </div>
+          <div class="carousel-item">
+            <img src="capa5.jpg" alt="Imagem 3">
+          </div>
+          <!-- Adicione mais itens conforme necessário -->
+        </div>
+        <button class="carousel-prev" onclick="prevSlide()">&#10094;</button>
+        <button class="carousel-next" onclick="nextSlide()">&#10095;</button>
+      </div>
+    </div>
+
+    
+
+  <script src="script.js"></script>
+  </div>
+
+  
+
+    
+</body>
+
+</html>
